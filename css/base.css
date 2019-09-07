@@ -1,0 +1,115 @@
+@font-face {
+    font-family: custom;
+    src: url(fonts/NRT-Reg.ttf);
+}
+
+body {
+    background-color: #6eb6ff !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+    margin-bottom: 30px
+}
+
+.nav-title {
+    font-size: 2em;
+}
+
+.nav-title .dropdown-menu {
+    font-size: 2em;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 25px auto;
+}
+
+#header-logo {
+    height: 100px !important;
+}
+
+.dropdown-toggle::after {
+    display: none
+}
+
+.items {
+    background-color: #d6e6f2 !important;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 20px;
+}
+
+.items button {
+    margin: 10px;
+    background-color: #2d3561;
+    font-weight: bold;
+}
+
+.plus-button {
+    background-color: seagreen;
+    padding: 10px;
+    margin: 10px 10px auto auto;
+    border-radius: 5px;
+}
+
+.plus-button:hover {
+    background-color: peru;
+}
+
+/*project.php style*/
+.project-item {
+    text-align: left;
+}
+
+.items .table-list {
+    text-align: center;
+}
+
+.items .table-list td {
+    border-bottom: 1px black solid;
+}
+
+.items .table-list td:not(:last-child) {
+    border-right: 1px black solid;
+}
+
+.items .table-list td a,
+.items .table-list td a:visited {
+    color: black
+}
+
+/*link styles*/
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+.intro-banner {
+    background-image: url("bg.jpg") !important;
+}
+
+@media (max-width: 991.98px) {
+    header ul {
+        transform: rotate(180deg) !important;
+    }
+
+    header ul > li {
+        transform: rotate(-180deg) !important;
+    }
+
+    .main-nav {
+        text-align: center !important;
+    }
+
+}
